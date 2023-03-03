@@ -1,0 +1,185 @@
+/* untuk header */
+
+.main-nav {
+  background-color: #003566;
+}
+
+.main-nav .navbar-nav a.nav-link {
+  color: white;
+  font-weight: 600;
+}
+
+.main-nav .navbar-nav .nav-link.active,
+.main-nav .navbar-nav .nav-link.active,
+.main-nav .navbar-nav .nav-link:hover {
+  color: #ffc300;
+}
+
+.navbar.scrolled {
+  background-color: white;
+  transition: background-color 0.5s ease;
+  box-shadow: 0px -10px 30px grey;
+}
+
+.navbar.scrolled a.nav-link {
+  color: grey;
+}
+
+.navbar img.main-logo {
+  max-width: 150px;
+}
+
+.navbar img.main-logo-hitam {
+  display: none;
+}
+
+.navbar.scrolled img.main-logo-hitam {
+  display: inline-block;
+}
+
+.navbar.navbar.scrolled img.main-logo-putih {
+  display: none;
+}
+
+/* untuk global */
+
+.main-biru {
+  background-color: #003566;
+  color: white;
+}
+
+button.btn-warning {
+  background-color: #ffc300;
+}
+
+.main-biru h2 span {
+  color: #ffc300;
+}
+
+h2.main-judul::after {
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  border-bottom: 10px solid #ffc300;
+  width: 100px;
+  border-radius: 25px;
+  content: '';
+}
+
+.main-grey {
+  background-color: white;
+}
+
+.main-atas-judul {
+  color: grey;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+a:hover {
+  transition: color 0.5s ease;
+}
+
+/* untuk kolaborasi */
+
+#main-kolaborasi img {
+  max-height: 50px;
+  max-width: 150px;
+}
+
+#main-kolaborasi a {
+  display: inline-block;
+  word-spacing: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* untuk blog */
+
+.main-blog-info img {
+  width: 50px;
+  border-radius: 50%;
+  float: left;
+}
+
+.main-blog-info {
+  color: grey;
+  position: relative;
+}
+
+.main-blog-info a {
+  padding-right: 15px;
+  color: grey;
+  text-decoration: none;
+}
+
+.main-blog-info a:hover {
+  color: #ffc300;
+}
+
+#blog .main-blog-info span {
+  font-size: 12px;
+  padding-left: 15px;
+}
+
+#blog a {
+  text-decoration: none;
+  color: grey;
+}
+
+#blog a:hover {
+  color: #ffc300;
+}
+
+#blog-detail .main-blog-info img {
+  float: none;
+}
+
+#blog-detail .main-blog-info span::before {
+  content: '';
+  top: 0px;
+  margin-bottom: 3px;
+  display: inline-block;
+  margin-right: 15px;
+  background-color: gray;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+}
+
+.main-tulisan-lain h4 a {
+  color: grey;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+/* untuk footer */
+
+.main-footer-menu h3 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.main-footer-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-footer-menu a:hover {
+  color: #ffc300;
+}
+
+.main-footer-menu ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.main-footer-menu ul li {
+  margin-bottom: 10px;
+}
+
+.main-footer-copyright {
+  background-color: #001d3d;
+  color: white;
+}
